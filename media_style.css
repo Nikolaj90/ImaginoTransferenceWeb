@@ -1,4 +1,8 @@
 @media screen and (max-width: 500px) {
+    .menu {
+        display:none;
+    }
+    
     .grid-container {
         margin: 0;
         display: grid;

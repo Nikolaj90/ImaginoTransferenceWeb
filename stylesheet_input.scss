@@ -8,6 +8,7 @@ html, body {
     height:100%;
 }
 
+/*-- grid-container --*/
 .header {
     grid-area: head;
 }
@@ -67,7 +68,7 @@ header {
       }
     
     nav {
-        height: (3/10)*$header-height;
+        height: calc((3/10)*$header-height);
         background-color: $menu-color;
         position:absolute;
         bottom: 0;
@@ -87,6 +88,7 @@ header {
     }
 }
 
+/*-- menu (sidebar) --*/
 .menu {
     a {
         padding: 5px;
@@ -100,7 +102,7 @@ header {
     }
 }
 
-
+/*-- Main content --*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +115,7 @@ div {
         background-color:$primary-color;
         width: 200px;
         height:350px;
-        margin: 0 20px;
+        margin: 5px 20px;
         display:block;
         overflow: hidden;
     }
@@ -151,4 +153,55 @@ img {
     border-bottom: 5px solid black;
     color: azure;
     background-color:$primary-color;
+}
+
+/*-- overlay-image --*/
+.modal {
+    height:100%;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index: 1;
+    padding-top: 100px;;
+    background-color: rgba(0,0,0, 0.9);
+    display:none;
+    overflow: auto;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
   }
+
+  /* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}

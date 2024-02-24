@@ -28,36 +28,40 @@ html, body {
   margin: 0;
   display: grid;
   grid-template-areas: "head head head" "menu main main" "menu main main";
-  grid-template-columns: 150px auto auto;
-  grid-template-rows: 120px auto auto;
+  grid-template-columns: 175px auto auto;
+  grid-template-rows: 100px auto auto;
 }
 
 /* -- Header styling -- */
 header {
-  height: 120px;
+  height: 100px;
   visibility: hidden;
 }
 
 /* Navigationbar */
 .navtop {
-  height: 120px;
+  height: 100px;
   width: 100%;
   position: fixed;
   z-index: 1;
   background-color: #2F4F4F;
+  border-bottom: 1px solid #2F4F4F;
   padding-left: 0;
 }
 .navtop h1 {
-  height: 72px;
   color: azure;
   font-size: 50px;
   text-align: left;
   padding-left: 20px;
+  padding-top: 10px;
   margin: 0;
 }
 .navtop nav {
-  height: 48px;
+  height: 30px;
   background-color: #696969;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .navtop a {
   padding: 5px 15px 5px 15px;
@@ -69,6 +73,17 @@ header {
 }
 .navtop a:hover {
   color: #9370DB;
+}
+
+.menu a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  width: 100%;
 }
 
 .flex-container {
@@ -108,6 +123,16 @@ img {
   height: 320px;
   object-fit: cover;
   object-position: center;
+}
+
+.main h1 {
+  margin-top: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 5px solid black;
+  color: azure;
+  background-color: #2F4F4F;
 }
 
 /*# sourceMappingURL=stylesheet_output.css.map */

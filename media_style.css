@@ -13,4 +13,11 @@
     .navtop h1 {
         font-size: 30px;
     }
+
+    #desc-img-item {
+        display:none;
+    }
+    #image-description .flex-item {
+        width:90%;
+    }
 }

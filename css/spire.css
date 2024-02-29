@@ -1,0 +1,64 @@
+/*-- Variables --*/
+/*-- Main body --*/
+body {
+  padding-right: 100px;
+  background-color: rgb(245, 230, 200);
+}
+
+.col1 {
+  grid-area: col1;
+}
+
+.col2 {
+  padding-top: 55px;
+  padding-left: 15px;
+  grid-area: col2;
+}
+
+.main {
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+/*-- Sidenav --*/
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/*-- Tables --*/
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 5px;
+}
+
+table {
+  padding: 10px 0px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=spire.css.map */

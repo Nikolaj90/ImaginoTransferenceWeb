@@ -1,12 +1,64 @@
-Certainly! Transitioning from basic familiarity to advanced proficiency in web development, including frontend and backend functionality, involves mastering a variety of topics in a structured manner. Here's a suggested plan:
+# Plan for mastering web development!
+
+### Progress
+<style>
+   /* Make sure that padding behaves as expected */
+   * {box-sizing:border-box}
+   p {
+      padding-bottom:0px;
+      padding-top:5px;
+   }
+   /* Container for skill bars */
+   .container {
+      width: 100%; /* Full width */
+      background-color: #ddd; /* Grey background */
+   }
+
+   .skills {
+      text-align: right; /* Right-align text */
+      padding-top: 10px; /* Add top padding */
+      padding-bottom: 10px; /* Add bottom padding */
+      color: white; /* White text color */
+   }
+
+   .html {width: 60%; background-color: #04AA6D;} /* Green */
+   .css {width: 25%; background-color: #2196F3;} /* Blue */
+   .js {width: 13%; background-color: #FF69B4;} /* Red */
+   .dbs {width: 5%; background-color: #483D8B} /* Dark Grey */
+   .api {width: 5%; background-color: #FF8C00;} /* Dark Grey */
+</style>
+<h3>HTML</h3>
+<div class="container">
+  <div class="skills html"></div>
+</div>
+<h3>CSS</h3>
+<div class="container">
+  <div class="skills css"></div>
+</div>
+<h3>JavaScript</h3>
+<div class="container">
+  <div class="skills js"></div>
+</div>
+<h3>Database Systems</h3>
+<div class="container">
+  <div class="skills dbs"></div>
+</div>
+<h3>APIs</h3>
+<div class="container">
+  <div class="skills api"></div>
+</div>
+<br>
 
 ### Phase 1: Solidify Fundamentals
 
 1. **HTML & CSS**
 
    - Review and reinforce your understanding of HTML5 semantic elements and CSS3 styling techniques.
+      - *Continue improving, but have solid understanding of all basic concepts*
    - Practice building responsive layouts using Flexbox and Grid.
+      - *Basic understanding*
    - Explore CSS preprocessors like Sass or Less for efficient styling.
+      - *loove sass*
 
 2. **JavaScript**
    - Deepen your knowledge of core JavaScript concepts such as functions, scope, closures, and asynchronous programming.

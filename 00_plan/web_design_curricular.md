@@ -23,10 +23,11 @@
    }
 
    .html {width: 60%; background-color: #04AA6D;} /* Green */
-   .css {width: 25%; background-color: #2196F3;} /* Blue */
+   .css {width: 27%; background-color: #2196F3;} /* Blue */
    .js {width: 16%; background-color: #FF69B4;} /* Red */
    .dbs {width: 5%; background-color: #483D8B} /* Dark Grey */
    .api {width: 5%; background-color: #FF8C00;} /* Dark Grey */
+   .react {width: 2%; background-color: #008B8B;}
 </style>
 <h3>HTML</h3>
 <div class="container">
@@ -49,25 +50,30 @@
   <div class="skills api"></div>
 </div>
 <br>
+<h3>React</h3>
+<div class="container">
+  <div class="skills react"></div>
+</div>
+<br>
 
 ### Phase 1: Solidify Fundamentals
 
 1. **HTML & CSS**
 
-   - Review and reinforce your understanding of HTML5 semantic elements and CSS3 styling techniques.
+   - ~~Review and reinforce your understanding of HTML5 semantic elements and CSS3 styling techniques.~~
      - _Continue improving, but have solid understanding of all basic concepts_
-   - Practice building responsive layouts using Flexbox and Grid.
+   - ~~Practice building responsive layouts using Flexbox and Grid.~~
      - _Basic understanding_
-   - Explore CSS preprocessors like Sass or Less for efficient styling.
+   - ~~Explore CSS preprocessors like Sass or Less for efficient styling.~~
      - _loove sass_
 
 2. **JavaScript**
-   - Deepen your knowledge of core JavaScript concepts such as functions, scope, closures, and asynchronous programming.
+   - ~~Deepen your knowledge of core JavaScript concepts such as functions, scope, closures, and asynchronous programming.~~
      - _Getting an understanding of asynchronous! 020224_
-   - Practice ES6+ features like arrow functions, template literals, destructuring, and promises.
+   - ~~Practice ES6+ features like arrow functions, template literals, destructuring, and promises.~~
      - _arrow functions done, template literals/template literal strings aka f-string done, promises pretty done_
      - _destructuring is picking arrays and objects apart and redefining them as separte variables_
-   - Learn about JavaScript modules and how to organize code using them.
+   - ~~Learn about JavaScript modules and how to organize code using them.~~
      - `export {function_a, function_b}`
      - `import {function_a} from "js_module.js"`
      - `import * from "js_module.js"`
@@ -79,17 +85,21 @@
 
 3. **Intermediate CSS**
 
-   - Dive deeper into CSS with advanced topics like animations, transitions, and keyframe animations.
-   - Explore CSS methodologies like BEM or SMACSS for scalable and maintainable stylesheets.
+   - ~~Dive deeper into CSS with advanced topics like animations, transitions, and keyframe animations.~~
+   - ~~Explore CSS methodologies like BEM or SMACSS for scalable and maintainable stylesheets.~~
      - _Not done, but also something I will continuesly need to come back to_
        - [Site for description and combining different methodologies](https://www.creativebloq.com/features/a-web-designers-guide-to-css-methodologies/2)
-   - Learn about CSS frameworks like Bootstrap or Tailwind CSS for rapid prototyping.
+   - ~~Learn about CSS frameworks like Bootstrap or Tailwind CSS for rapid prototyping.~~
 
 4. **Advanced JavaScript**
 
    - Study more complex JavaScript topics such as object-oriented programming, design patterns, and functional programming paradigms.
-   - Explore browser APIs like the DOM, Fetch API, and Local Storage.
+   - ~~Explore browser APIs like the DOM, Fetch API, and Local Storage.~~
+      - Local storage: _Local storage is pretty, done_
+      - DOM: _Lets read! But have worked with this a bit. Might still be some learnings about creating elements combined with asyn functions. But i'll work more on that later on_
+      - Fetch API
    - Understand concepts like event bubbling, delegation, and event handling.
+      - _bubbling/capture for eventlistener, which goes first inner or outer object. default=bubbling=inner_
 
 5. **React**
    - Start with React fundamentals including JSX syntax, components, props, and state management.
@@ -106,7 +116,7 @@
 
 7. **Databases**
 
-   - Learn about different types of databases (SQL vs. NoSQL).
+   - ~~Learn about different types of databases (SQL vs. NoSQL).~~
    - Dive into SQL databases like PostgreSQL or MySQL for relational data modeling and querying.
    - Explore NoSQL databases like MongoDB for document-based storage.
 
@@ -120,7 +130,7 @@
 
    - Understand database management systems (DBMS) and their types (relational, NoSQL, NewSQL).
    - Dive deeper into relational databases:
-     - Learn advanced SQL querying techniques including joins, subqueries, and indexing.
+     - ~~Learn advanced SQL querying techniques including joins, subqueries, and indexing.~~
      - Study database normalization and denormalization.
    - Explore NoSQL databases:
      - Learn about document-based (e.g., MongoDB), key-value (e.g., Redis), and column-family (e.g., Cassandra) databases.
@@ -143,20 +153,14 @@
    - Integrate frontend (React) with backend (Node.js/Express or your chosen backend framework).
    - Learn about RESTful API design principles and best practices.
    - Implement authentication and authorization using techniques like JWT (JSON Web Tokens) or OAuth.
+   - Handle CORS (Cross-Origin Resource Sharing) and CSRF (Cross-Site Request Forgery) protection in your full-stack applications.
+   - Explore real-time communication between frontend and backend using technologies like WebSockets or Server-Sent Events.
 
 10. **Deployment and DevOps**
     - Explore deployment options like Heroku, AWS, or Netlify for hosting your web applications.
     - Learn about continuous integration and deployment (CI/CD) pipelines.
     - Understand basics of server management, scalability, and monitoring.
 
-### Phase 4: Full-Stack Integration (DBS and API)
-
-8. **Full-Stack Development**
-   - Integrate frontend (React) with backend (Node.js/Express or your chosen backend framework).
-   - Learn about RESTful API integration in frontend applications.
-   - Implement authentication and authorization using techniques like JWT (JSON Web Tokens) or OAuth.
-   - Handle CORS (Cross-Origin Resource Sharing) and CSRF (Cross-Site Request Forgery) protection in your full-stack applications.
-   - Explore real-time communication between frontend and backend using technologies like WebSockets or Server-Sent Events.
 
 ### Phase 5: Advanced Topics and Specializations
 

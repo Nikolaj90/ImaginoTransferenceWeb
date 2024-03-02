@@ -1,6 +1,7 @@
 # Plan for mastering web development!
 
 ### Progress
+
 <style>
    /* Make sure that padding behaves as expected */
    * {box-sizing:border-box}
@@ -23,7 +24,7 @@
 
    .html {width: 60%; background-color: #04AA6D;} /* Green */
    .css {width: 25%; background-color: #2196F3;} /* Blue */
-   .js {width: 13%; background-color: #FF69B4;} /* Red */
+   .js {width: 16%; background-color: #FF69B4;} /* Red */
    .dbs {width: 5%; background-color: #483D8B} /* Dark Grey */
    .api {width: 5%; background-color: #FF8C00;} /* Dark Grey */
 </style>
@@ -54,16 +55,25 @@
 1. **HTML & CSS**
 
    - Review and reinforce your understanding of HTML5 semantic elements and CSS3 styling techniques.
-      - *Continue improving, but have solid understanding of all basic concepts*
+     - _Continue improving, but have solid understanding of all basic concepts_
    - Practice building responsive layouts using Flexbox and Grid.
-      - *Basic understanding*
+     - _Basic understanding_
    - Explore CSS preprocessors like Sass or Less for efficient styling.
-      - *loove sass*
+     - _loove sass_
 
 2. **JavaScript**
    - Deepen your knowledge of core JavaScript concepts such as functions, scope, closures, and asynchronous programming.
+     - _Getting an understanding of asynchronous! 020224_
    - Practice ES6+ features like arrow functions, template literals, destructuring, and promises.
+     - _arrow functions done, template literals/template literal strings aka f-string done, promises pretty done_
+     - _destructuring is picking arrays and objects apart and redefining them as separte variables_
    - Learn about JavaScript modules and how to organize code using them.
+     - `export {function_a, function_b}`
+     - `import {function_a} from "js_module.js"`
+     - `import * from "js_module.js"`
+     - `export default func_default`
+     - `import func_default from "js_modules.js"`
+     - `import func_default, {function_a} from "js_modules.js"`
 
 ### Phase 2: Frontend Development
 
@@ -71,6 +81,8 @@
 
    - Dive deeper into CSS with advanced topics like animations, transitions, and keyframe animations.
    - Explore CSS methodologies like BEM or SMACSS for scalable and maintainable stylesheets.
+     - _Not done, but also something I will continuesly need to come back to_
+       - [Site for description and combining different methodologies](https://www.creativebloq.com/features/a-web-designers-guide-to-css-methodologies/2)
    - Learn about CSS frameworks like Bootstrap or Tailwind CSS for rapid prototyping.
 
 4. **Advanced JavaScript**

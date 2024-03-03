@@ -24,9 +24,9 @@
 
    .html {width: 60%; background-color: #04AA6D;} /* Green */
    .css {width: 27%; background-color: #2196F3;} /* Blue */
-   .js {width: 16%; background-color: #FF69B4;} /* Red */
-   .dbs {width: 5%; background-color: #483D8B} /* Dark Grey */
-   .api {width: 5%; background-color: #FF8C00;} /* Dark Grey */
+   .js {width: 19%; background-color: #FF69B4;} /* Red */
+   .dbs {width: 6%; background-color: #483D8B} /* Dark Grey */
+   .api {width: 6%; background-color: #FF8C00;} /* Dark Grey */
    .react {width: 2%; background-color: #008B8B;}
 </style>
 <h3>HTML</h3>
@@ -107,22 +107,65 @@
    - Learn about React Router for client-side routing and Redux for state management (or alternatives like Context API or Recoil).
 
 ### Phase 3: Backend Development
+### 6. Learning Node.js
 
-6. **Node.js**
+#### Step 1: Setting Up Node.js Environment
+   - Install Node.js: Download and install Node.js from the official website or use a package manager like npm or nvm for installation.
 
-   - Learn server-side JavaScript with Node.js.
-   - Understand the basics of Node.js modules, NPM (or Yarn), and package.json.
-   - Explore building RESTful APIs using Express.js.
+#### Step 2: Understanding Node.js Basics
+   - Learn the basics of Node.js: Understand the event-driven, non-blocking I/O model of Node.js and its single-threaded nature.
+   - Explore the Node.js runtime environment and its features.
 
-7. **Databases**
+#### Step 3: Core Modules and NPM
+   - Explore Node.js core modules: Study commonly used core modules like fs (file system), http, path, and others.
+   - Learn about npm (Node Package Manager): Understand how to use npm to manage dependencies and create Node.js projects.
 
-   - ~~Learn about different types of databases (SQL vs. NoSQL).~~
-   - Dive into SQL databases like PostgreSQL or MySQL for relational data modeling and querying.
-   - Explore NoSQL databases like MongoDB for document-based storage.
+#### Step 4: Asynchronous Programming
+   - Master asynchronous programming: Understand callbacks, promises, and async/await to handle asynchronous operations in Node.js effectively.
+   - Practice writing asynchronous code to perform tasks like file I/O, network requests, and database operations.
 
-8. **Backend Framework (Optional)**
-   - If you're interested in backend frameworks, consider learning a framework like Express.js (Node.js), Django (Python), or Flask (Python).
-   - Understand MVC (Model-View-Controller) architecture and how it applies to web applications.
+#### Step 5: Express.js Framework
+   - Introduction to Express.js: Learn about Express.js, a popular web application framework for Node.js.
+   - Explore routing, middleware, and handling HTTP requests and responses using Express.js.
+
+#### Step 6: Building RESTful APIs
+   - Designing RESTful APIs: Understand the principles of RESTful API design, including resource naming, HTTP methods, and response formats.
+   - Implement RESTful routes and controllers using Express.js for CRUD operations.
+
+#### Step 7: Error Handling and Middleware
+   - Error handling: Learn about error handling techniques in Express.js, including error middleware and global error handlers.
+   - Explore middleware: Understand how middleware functions work in Express.js and how to use them for tasks like authentication, logging, and data validation.
+
+### 8. Integrating Frontend with Backend
+
+#### Step 1: Cross-Origin Resource Sharing (CORS)
+   - Understanding CORS: Learn about Cross-Origin Resource Sharing and how it affects frontend-backend communication.
+   - Implement CORS handling in your Express.js application to allow cross-origin requests from the frontend.
+
+#### Step 2: Implementing Authentication and Authorization
+   - Authentication methods: Explore different authentication methods such as JWT (JSON Web Tokens) and session-based authentication.
+   - Implement user authentication using libraries like Passport.js or by rolling out your custom authentication middleware.
+   - Authorization: Define user roles and permissions and implement authorization checks in your routes to restrict access to certain resources.
+
+#### Step 3: Handling Form Data and File Uploads
+   - Form handling: Learn how to handle form data submitted from the frontend using Express.js.
+   - File uploads: Implement file upload functionality using libraries like multer for handling multipart/form-data.
+
+#### Step 4: Error Handling and Validation
+   - Data validation: Implement validation for incoming data to ensure data integrity and security.
+   - Error handling: Handle validation errors and other runtime errors gracefully, providing meaningful error messages to the client.
+
+#### Step 5: Security Best Practices
+   - Secure coding practices: Learn about security best practices for Node.js applications, including input validation, output encoding, and data sanitization.
+   - Implement security measures to protect against common vulnerabilities like SQL injection, XSS (Cross-Site Scripting), and CSRF (Cross-Site Request Forgery).
+
+#### Step 6: Testing and Debugging
+   - Unit testing: Write unit tests for backend routes and controllers using testing frameworks like Mocha and Chai.
+   - Debugging: Learn debugging techniques using built-in Node.js debugger or third-party debugging tools.
+
+#### Step 7: Deployment
+   - Deployment setup: Prepare your Express.js application for deployment to a production environment.
+   - Choose a deployment platform (e.g., Heroku, AWS, DigitalOcean) and follow deployment guidelines for Node.js applications.
 
 ### Phase 3: Backend Development (DBS and API)
 

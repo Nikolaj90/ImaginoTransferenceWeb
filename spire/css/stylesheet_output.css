@@ -15,6 +15,10 @@ body {
   grid-area: col2;
 }
 
+.col3 {
+  grid-area: col1, col2;
+}
+
 .main {
   display: grid;
   grid-template-areas: "col1 col2";
@@ -82,11 +86,21 @@ table {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 18px;
+  padding: 5px 18px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  margin: 0px 5px 10px 5px;
+  display: none;
+  /* The text and headlines are set to inline display*/
+}
+.content div {
+  padding-bottom: 10px;
+}
+.content h3, .content p {
+  display: inline;
+  font-size: 20px;
 }
 
-/*# sourceMappingURL=spire.css.map */
+/*# sourceMappingURL=stylesheet_output.css.map */

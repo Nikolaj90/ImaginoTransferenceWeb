@@ -18,6 +18,10 @@ body {
     grid-area: col2;
 }
 
+.col3{
+    grid-area: col1, col2;
+}
+
 .main {
     display:grid;
     grid-template-areas: "col1 col2";
@@ -82,14 +86,26 @@ table {
   
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-background-color: #ccc;
+    background-color: #ccc;
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-    padding: 0 18px;
+    padding: 5px 18px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-  }
+    margin: 0px 5px 10px 5px;
+    display: none;
+
+    div {
+        padding-bottom: 10px;
+    }
+
+    /* The text and headlines are set to inline display*/
+    h3, p {
+        display:inline;
+        font-size: 20px;
+    }
+}

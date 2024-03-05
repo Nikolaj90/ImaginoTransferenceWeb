@@ -22,11 +22,11 @@
       color: white; /* White text color */
    }
 
-   .html {width: 60%; background-color: #04AA6D;} /* Green */
-   .css {width: 27%; background-color: #2196F3;} /* Blue */
-   .js {width: 19%; background-color: #FF69B4;} /* Red */
-   .dbs {width: 6%; background-color: #483D8B} /* Dark Grey */
-   .api {width: 6%; background-color: #FF8C00;} /* Dark Grey */
+   .html {width: 60%; background-color: #04AA6D;} 
+   .css {width: 27%; background-color: #2196F3;} 
+   .js {width: 21%; background-color: #FF69B4;}
+   .dbs {width: 6%; background-color: #483D8B} 
+   .api {width: 6%; background-color: #FF8C00;}
    .react {width: 2%; background-color: #008B8B;}
 </style>
 <h3>HTML</h3>

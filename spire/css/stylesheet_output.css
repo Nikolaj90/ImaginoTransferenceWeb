@@ -15,10 +15,6 @@ body {
   grid-area: col2;
 }
 
-.col3 {
-  grid-area: col1, col2;
-}
-
 .main {
   display: grid;
   grid-template-areas: "col1 col2";
@@ -26,6 +22,10 @@ body {
   grid-template-rows: auto auto;
   margin-left: 160px;
   padding: 0px 10px;
+}
+
+.main-single {
+  margin-left: 160px;
 }
 
 /*-- Sidenav --*/

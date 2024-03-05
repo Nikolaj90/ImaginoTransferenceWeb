@@ -15,7 +15,7 @@ async function func_open(deity){
     const img_box = document.getElementById("image-description");
     const img_element = document.getElementById("desc-img-item");
     img_box.style.display = "flex";
-    img_element.src = "img/" + deity + ".jpg";
+    img_element.src = "attributes/img/" + deity + ".jpg";
 
     const content_container = document.getElementById("desc-content");
 
@@ -34,7 +34,7 @@ async function func_open(deity){
 }
 
 async function getText(deity){
-  let myObject = await fetch("data/" + deity + ".txt");
+  let myObject = await fetch("attributes/" + deity + ".txt");
   let myText = await myObject.text();
   return myText;
 }

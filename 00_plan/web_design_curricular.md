@@ -23,7 +23,7 @@
    }
 
    .html {width: 60%; background-color: #04AA6D;} 
-   .css {width: 27%; background-color: #2196F3;} 
+   .css {width: 32%; background-color: #2196F3;} 
    .js {width: 21%; background-color: #FF69B4;}
    .dbs {width: 6%; background-color: #483D8B} 
    .api {width: 6%; background-color: #FF8C00;}
